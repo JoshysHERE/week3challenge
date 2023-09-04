@@ -8,6 +8,14 @@ var symbols = confirm("Your password should have a symbol! Click OK to continue"
 var numbers = confirm("Your password should have a number! Click OK to continue");
 var Keylength = prompt("Password must be between 8 and 128 Click OK to continue");
 
+
+var uppercaseABC = "ABCDEFGHIJKLMNOPQRSTUVWZYX";
+var lowercaseABC = "ABCDEFGHIJKLMNOPQRSTUVWZYX";
+var specialSymbols = "!@#$%^&*()?.<\>|=+:;,[-_]";
+var numeric = "0123456789";
+var multiSelect = [];
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
