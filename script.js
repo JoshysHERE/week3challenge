@@ -1,16 +1,16 @@
+var characterLength = 8;
+var choiceArr = [];
+
+var  specialCharArr = ['!','@','#','$','%','^','&','*','(',')','[',']','{','}','|','?','/,'<','>,];
+var  lowercaseArr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',];
+var  uppercaseArr= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',];
+var  numberArr = ['1','2','3','4','5','6','7','8','9','0'];
 // Assignment code here
 var generateBtn = document.querySelector("#generate");
 
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-var uppercase = confirm("Your password should have an uppercase letter! Click OK to continue");
-var lowercase = confirm("Your password should have a lowercase letter! Click OK to continue");  
-var symbols = confirm("Your password should have a symbol! Click OK to continue");
-var numbers = confirm("Your password should have a number! Click OK to continue");
-var Keylength = prompt("Password must be between 8 and 128 Click OK to continue");
 
 
 // Write password to the #password input
