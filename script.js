@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 //creates function called generatePassword()
-function generatePassword() {
+function generatePassword() 
 
 var uppercase = confirm("Your password should have an uppercase letter! Click OK to continue");
 var lowercase = confirm("Your password should have a lowercase letter! Click OK to continue");  
@@ -29,8 +29,8 @@ return "Your passwords does not meet the password criteria";
 
 var uppercaseABC = confirm("Your password should have an uppercase letter!");
 var lowercaseABC = confirm("Your password should have a lowercase letter!");
-var symbols = confirm("Your password should have a symbol! Click OK to continue");
-var numbers = confirm("Your password should have a number! Click OK to continue");
+var symbols = confirm("Your password should have a symbol!");
+var numbers = confirm("Your password should have a number!");
 
 
 
