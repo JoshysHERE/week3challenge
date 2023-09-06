@@ -1,7 +1,7 @@
 ##Password Generator
 
 Description
-
+This week we were given starter code and were tasked with making the password generator make a randomly generated password. When you clock the red button it will prompt you with a few questions and ask you how many characters you want might in your randomly generated password.( 8 - 128)
 Table of Contents
 n/a
 
@@ -9,7 +9,7 @@ Installation
 No install needed
 
 Usage
-snapshot for portfolio
+
 
 License
 n/a
