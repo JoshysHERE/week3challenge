@@ -16,16 +16,16 @@ generateBtn.addEventListener("click", writePassword);
 
 
 function writePassword() {
-   var correctPrompts = getPrompts();
+   var correctPrompts = getPrompts(); 
+   var passwordText = document.querySelector("#password");
 
 if (correctPrompts) {
    var newPassword = generatePassword();
-   var passwordText = document.querySelector("#password");
-
   passwordText.value = newPassword;
-
+} else {
+  passwordTest.value = '';
   }
-  
+
 }
 
 function generatePassword() {
@@ -40,7 +40,7 @@ for(var i = 0; i < characterLength; i++) {
 function getPrompts(){
   characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters"));
 
-  if(isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
+  if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
     alert("Character length has to be 8 - 128 digits! Please try again.");
     return false;
 
