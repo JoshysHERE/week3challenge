@@ -24,5 +24,5 @@ Password randomizes and a button
 n/a
 
 ## Tests
-### GitHub Pages Link: 
+### GitHub Pages Link: https://joshyshere.github.io/week3challenge/
 ### Github Repo Link: https://github.com/JoshysHERE/week3challenge
