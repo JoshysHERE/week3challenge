@@ -26,3 +26,4 @@ n/a
 ## Tests
 ### GitHub Pages Link: https://joshyshere.github.io/week3challenge/
 ### Github Repo Link: https://github.com/JoshysHERE/week3challenge
+### Link to Portfolio: https://joshyshere.github.io/joshsportfolio/
