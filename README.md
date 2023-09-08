@@ -11,7 +11,8 @@ No install needed
 ## Usage
 This will be used to generate random passwords.
 
-[week3challenge](https://github.com/JoshysHERE/week3challenge/assets/141682993/d6e03e38-a430-421d-ada5-e2f738ead533)
+![week3challenge](https://github.com/JoshysHERE/week3challenge/assets/141682993/a557abf4-cd9a-4a9a-8a0a-11fde714fbda)
+
 ## License
 n/a
 
