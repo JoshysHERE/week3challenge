@@ -1,6 +1,6 @@
 var characterLength = 8;
 var choiceArr = [];
-
+//All possible characters
 var  specialCharArr = ['!','@','#','$','%','^','&','*','(',')','[',']','{','}','|','?','/,'];
 var  lowercaseArr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',];
 var  uppercaseArr= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',];
@@ -35,7 +35,7 @@ for(var i = 0; i < characterLength; i++) {
   password = password + choiceArr[randomIndex];
  }
  return password;
-
+//prompts a few messages for the user
 }
 function getPrompts(){
   characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters"));
